@@ -12,12 +12,17 @@ body {
 .my-project {
   color: white;
 }
-#button{
+#add-ship-btn{
   margin-top: 20px;
   font-style: italic;
   font-weight: 900;
 
 }
+
+div.transparent {
+  background: rgba(0, 0, 0, 0);
+}
+
 @media screen and (min-width:980px)
 {
   #gifs-appear-here{

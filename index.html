@@ -24,18 +24,18 @@
 <body class="my-project"> 
 
   <div class="container">
-    <div class="jumbotron" style="background-color:rgba(0, 0, 0, 0);" >
+    <div class="jumbotron transparent">
       <h1 class="test-center">Space Ship Timetable</h1>
       <h3 class="test-center">Departure from Earth</h3>
     </div>
-    <div class="row" >
-      <div class="col-md-12" style="background-color:rgba(0, 0, 0, 0);">
-        <div class="card mb-4"style="background-color:rgba(0, 0, 0, 0);">
-          <div class="card-header" ><h2>Current Ship Schedule</h2></div>
-          <div class="card-body" style="background-color:rgba(0, 0, 0, 0);">
-            <table class="table table-sm table-hover" id='ship-table' style="background-color:rgba(0, 0, 0, 0);">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card mb-4 transparent">
+          <div class="card-header "><h2>Current Ship Schedule</h2></div>
+          <div class="card-body">
+            <table class="table table-sm table-hover" id='ship-table'>
               <thead>
-                <tr style="background-color:rgba(0, 0, 0, 0);">
+                <tr>
                   <th scope="col">Ship Name</th>
                   <th scope="col">Destination</th>
                   <th scope="col">Frequency (min)</th>
@@ -52,12 +52,12 @@
       </div>
     </div>
 
-    <div class="row" style="background-color:rgba(0, 0, 0, 0);">
-      <div class="col-md-12"style="background-color:rgba(0, 0, 0, 0);">
+    <div class="row">
+      <div class="col-md-12">
 
-        <div class="card mb-4"style="background-color:rgba(0, 0, 0, 0);">
-          <div class="card-header"style="background-color:rgba(0, 0, 0, 0);"><h2>Add Ship</h2> </div>
-          <div class="card-body"style="background-color:rgba(0, 0, 0, 0);">
+        <div class="card mb-4 transparent">
+          <div class="card-header"><h2>Add Ship</h2> </div>
+          <div class="card-body">
 
 
 
@@ -65,11 +65,11 @@
 
 
             <form> 
-              <div class="form-group" >
+              <div class="form-group">
                 <label for="ship-name-input">Ship Name</label>
                 <input class="form-control" id="ship-name-input" placeholder="" type="text">
               </div>
-              <div class="form-group"style="background-color:rgba(0, 0, 0, 0);">
+              <div class="form-group">
                 <label for="destination-input">Destination</label>
                 <input class="form-control" id="destination-input" placeholder="" type="text">
               </div>
@@ -83,7 +83,7 @@
 
 
 
-                <button id="button" >Submit</button>
+                <button id="add-ship-btn" >Submit</button>
 
             </form>
 
