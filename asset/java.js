@@ -40,7 +40,7 @@ console.log(newShip.firstTime);
 
 database.ref().push(newShip);
 
-alert("Ship successfully added");
+//alert("Ship successfully added");
 //clears all of the text-boxes
 $("ship-name-input").val("");
 $("destination-input").val("");
